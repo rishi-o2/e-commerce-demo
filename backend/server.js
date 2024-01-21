@@ -36,6 +36,7 @@ app.get("*", function (_, res) {
   );
 });
 
+
 app.use("/api/v1/auth", authroutes);
 app.use("/api/v1/category", CategoryRoutes);
 app.use("/api/v1/product", ProductRoute);
